@@ -3,3 +3,21 @@
     width: 100%;
     margin: 0 auto;
 }
+
+//font styles
+
+@mixin primary-Font-Styles {
+    color: $primary-color;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+@mixin secondary-Font-Styles {
+    font-family: Roboto;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
