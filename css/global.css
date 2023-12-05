@@ -88,7 +88,7 @@ header .navigation li {
   line-height: normal;
 }
 
-.trading {
+body > h1 {
   padding-top: 76px;
   padding-bottom: 27px;
   color: #000;
@@ -147,4 +147,34 @@ header .navigation li {
   font-weight: 700;
   line-height: normal;
   color: #8A8787;
+}
+
+.section2 {
+  display: flex;
+}
+.section2 .left-Section {
+  display: flex;
+  flex-direction: column;
+}
+.section2 .left-Section .big-Image-Text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section2 .left-Section h2 {
+  position: absolute;
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #FFF;
+}
+.section2 .left-Section img {
+  margin-bottom: 40px;
+}
+.section2 .right-Section img {
+  margin-bottom: 103px;
+  margin-left: 45px;
 }/*# sourceMappingURL=global.css.map */

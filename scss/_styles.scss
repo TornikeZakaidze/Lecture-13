@@ -30,7 +30,7 @@ header {
     }
 }
 
-.trading {
+body > h1 {
     padding-top: 76px;
     padding-bottom: 27px;
     color: $secondary-color;
@@ -79,6 +79,32 @@ header {
                 }
 
             }
+        }
+    }
+}
+.section2 {
+    display: flex;
+    .left-Section {
+        display: flex;
+        flex-direction: column;
+        .big-Image-Text {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        h2 {
+            position: absolute;
+            @include primary-Font-Styles;
+            color: $primary-color;
+        }
+        img {
+            margin-bottom: 40px;
+        }
+    }
+    .right-Section {
+        img {
+            margin-bottom: 103px;
+            margin-left: 45px;
         }
     }
 }
