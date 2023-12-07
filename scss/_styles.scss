@@ -108,3 +108,34 @@ body > h1 {
         }
     }
 }
+.footer-Rectangle {
+    height: 201px;
+    width: 100%;
+    background: #243043;
+    display: flex;
+    align-items: center;
+    .footer-Section {
+        display: flex;
+        flex-direction: row;
+        section {
+            @include footer-Columns;
+            margin-right: 80px;
+
+            a {
+                margin-bottom: 14px;
+                color: $tertiary-color;
+                @include tertiary-Font-Styles
+            }
+        }
+        p {
+            @include tertiary-Font-Styles;
+            color: $primary-color;
+            margin-left: 30px;
+        }
+        .logo {
+            margin-left: 416px;
+            margin-top: -70px;
+        }
+    }
+    
+}

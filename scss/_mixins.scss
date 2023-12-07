@@ -3,6 +3,10 @@
     width: 100%;
     margin: 0 auto;
 }
+@mixin footer-Columns {
+    display: flex;
+    flex-direction: column;
+}
 
 //font styles
 
@@ -17,6 +21,13 @@
 @mixin secondary-Font-Styles {
     font-family: Roboto;
     font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+@mixin tertiary-Font-Styles {
+    font-family: Roboto;
+    font-size: 12px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;

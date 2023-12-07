@@ -177,4 +177,43 @@ body > h1 {
 .section2 .right-Section img {
   margin-bottom: 103px;
   margin-left: 45px;
+}
+
+.footer-Rectangle {
+  height: 201px;
+  width: 100%;
+  background: #243043;
+  display: flex;
+  align-items: center;
+}
+.footer-Rectangle .footer-Section {
+  display: flex;
+  flex-direction: row;
+}
+.footer-Rectangle .footer-Section section {
+  display: flex;
+  flex-direction: column;
+  margin-right: 80px;
+}
+.footer-Rectangle .footer-Section section a {
+  margin-bottom: 14px;
+  color: #8A8787;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.footer-Rectangle .footer-Section p {
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #FFF;
+  margin-left: 30px;
+}
+.footer-Rectangle .footer-Section .logo {
+  margin-left: 416px;
+  margin-top: -70px;
 }/*# sourceMappingURL=global.css.map */
